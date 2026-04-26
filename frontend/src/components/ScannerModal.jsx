@@ -71,7 +71,7 @@ export default function VerifyPage() {
             >
               {ticket.user?.photo ? (
                 <img
-                  src={`${import.meta.env.VITE_API_URL}${ticket.user.photo}`}
+                  src={`${import.meta.env.VITE_SERVER_URL}${ticket.user.photo}`}
                   alt="user"
                   style={{
                     width: 60,
