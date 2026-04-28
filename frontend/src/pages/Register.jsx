@@ -98,7 +98,7 @@ export default function Register() {
               <label className="form-label">Account Type</label>
               <select name="role" className="form-input" value={form.role} onChange={handleChange}>
                 <option value="user">User</option>
-                <option value="admin">Admin</option>
+               {/* <option value="admin">Admin</option> */}
               </select>
             </div>
             <button type="submit" className="btn btn-primary btn-lg" disabled={loading} style={{ width: '100%', justifyContent: 'center', marginTop: 4 }}>

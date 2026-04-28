@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the application files to the container
-COPY . .
+COPY . ].z
 
 # Expose the port your application will run on
 EXPOSE 8080

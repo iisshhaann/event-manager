@@ -21,7 +21,7 @@ export default function Navbar() {
         { path: '/dashboard', label: 'Events' },
         { path: '/admin', label: 'Admin Panel' },
         { path: '/admin/create-event', label: 'Create Event' },
-        { path: '/admin/scan', label: 'Scan & Verify' },
+        // { path: '/admin/scan', label: 'Scan & Verify' },
       ]
     : [
         { path: '/dashboard', label: 'Events' },
